@@ -1,0 +1,46 @@
+# 排除文件目录
+*.php
+*.html
+*.xml
+*.po
+*.mo
+*.json
+*.txt
+*.htaccess
+*.zip
+*.gz
+*.phtml
+*.html.gz
+*.bmp
+*.md
+*.pem
+*.prefs
+wp-content/uploads/*
+# ignore everything in the root except the "wp-content" directory.
+!wp-content/
+!wp-includes/
+
+# ignore everything in the "wp-content" directory, except:
+# "mu-plugins", "plugins", "themes" directory
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+wp-content/plugins/erphpdown/payment
+wp-content/plugins/erphpdown/setting.js
+wp-content/plugins/live2d
+wp-content/plugins/insert-post-ads
+wp-content/plugins/wp-original-media-path
+wp-content/plugins/wpsite-post-status-notifications
+wp-content/plugins/wptelegram
+wp-content/plugins/inn-maintenance-mode-inn
+wp-content/plugins/wpjam-basic
+wp-content/plugins/imgspider
+!wp-content/themes/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
