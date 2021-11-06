@@ -48,7 +48,10 @@ body.custom-background {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+/*文章标签*/
+.inn-singular__post__tags__item {
+    border-radius: 0rem;
+}
 /*-------------------------------PC-CSS-END-------------------*/
 /*评论区表情大小*/
 .inn-comment__item__content__text img {
