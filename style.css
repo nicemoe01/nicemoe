@@ -1,0 +1,224 @@
+/*.inn-last-edit{display:none};
+.inn-singular__post__header__item__comments__container{display:none}
+.fa-comments.fas.fa-fw.poi-icon{display:none};
+.inn-singular__post__toolbar__item__number{display:none};
+.fa-play-circle.fas.fa-fw.poi-icon{display:none};*/
+.inn-card_variable-width__item .inn-card__category__item, .inn-card_variable-width__item .inn-card_variable-width__item__author__name, .inn-card_variable-width__item .inn-card_variable-width__item__views {
+    font-size: 0rem;
+}
+.inn-singular__post__toolbar__item__number {
+    display: none;
+}
+.inn-singular__post__header__item__views__container{display:none};
+
+/*主菜单*/
+.is-light-banner .inn-nav__item__link.is-icon-text .inn-nav__item__link__icon {
+    background: hsla(0,0%,100%,0);
+	
+}
+/*顶部小菜单*/
+.inn-topbar__container {
+    display: block;
+    background-color: rgb(0 0 0 / 0.40);
+    backdrop-filter: blur(2px);
+}
+body.custom-background {
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*-------------------------------PC-CSS-------------------*/
+body.custom-background {
+	background-image: url(https://cdn.jsdelivr.net/gh/nicemoe01/nicemoe/imges/background-pc.png);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------PC-CSS-END-------------------*/
+/*评论区表情大小*/
+.inn-comment__item__content__text img {
+		width: auto;
+    height: 120px;
+}
+.inn-comment__emotion__img__item__img {
+		width: auto;
+    height: 120px;
+}
+.inn-comment__sub__item img {
+    height: 100px;
+    width: auto;
+}
+/*-------------------------------手机CSS-------------------*/
+@media screen and (max-width:768px){
+.inn-topbar__container .poi-container {
+    display: none;
+}
+	
+
+body.custom-background {
+    background-image: url(https://cdn.jsdelivr.net/gh/nicemoe01/nicemoe/imges/background-mobile.png)!important;
+}
+/*分类筛选*/
+.inn-category-quick-filter__cat__link {
+    font-size: 12px;
+    border-radius: 0rem;
+}
+/*菜单*/
+.inn-banner__mask {height: 0px;}
+.inn-nav-mobile__sub__item__link {
+    color: #000000;
+	}
+/*手机导航*/
+.inn-header-nav {
+    background-color: #ff7d7f;
+}
+.inn-nav-mobile__container {
+    width: 75%;
+}
+/*首页模块边框*/
+	body.is-ios .poi-g_1-2 {
+    flex: 0 0 calc(50% - 0px);
+}
+.inn-card_post-thumbnail__item {
+    text-align: justify;
+}
+/*首页更多资源按钮*/
+.inn-panel__bottom-btn {
+    text-align: center;
+    background: hsla(0,0%,100%,.95);
+    color: #000;
+    padding: .25rem 0;
+    margin-bottom: .5rem;
+    border-radius: 0rem;
+    font-size: 14px;
+}
+/*下载按钮位置*/
+.inn-singular__post__toolbar {
+    margin: 0rem -.7rem 0;
+}
+/*自定义顶部导航与幻灯片距离*/
+	.inn-nav__placeholder {
+    height: 44px;
+}
+/*手机端2019首页*/
+.inn-slideshow_2019 {
+    border-radius: 0rem;
+}
+.inn-homepage__recomm__container {
+    border-radius: 0rem;
+    padding: 0 0 0rem;
+}
+
+/*2019*/
+.inn-homepage__recomm__item {
+	  border-radius: 0rem;
+	  flex: 0 0 calc(50% - 0.2rem);
+    height: calc(100px - 0rem);
+}
+}
+/*手机END*/
+/*2019*/
+.inn-homepage__recomm__item {
+	  border-radius: 0rem;
+}
+/*底部纯白*/
+.inn-user-code__container {color: #000;font-size: 1rem;padding: 0rem 0 5rem;text-align: center;text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 10px #fff;background-color: hsla(0,0%,100%,.9);}
+/*文章方块设置三行文字*/
+.inn-card_post-thumbnail__item__title__link {
+    -webkit-line-clamp: 3;
+	   color: #000
+}
+.inn-widget .inn-widget__author-profile__container {
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgb(255 255 255 / 0.95);
+}
+/*图片直角*/
+img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-radius: 0rem!important;
+}
+/*首页模块模糊*/
+.inn-card_post-thumbnail__item__container {
+		border-radius: 0rem;
+		backdrop-filter: blur(5px);
+	  background: hsla(0,0%,100%,.7);
+}
+.inn-widget>:last-child, .poi-panel__body {
+    background: hsla(0,0%,100%,.7)!important;
+    backdrop-filter: blur(5px);
+}
+.inn-card_painting__item__container {
+    background: hsla(0,0%,100%,.7)!important;
+    border-radius: 0rem !important;
+		backdrop-filter: blur(5px);
+	  border-radius: 0rem;
+}
+.inn-card_post-thumbnail__item__thumbnail__img {
+    border-radius: 0rem 0rem 0 0;
+}
+.inn-card_painting__item__thumbnail__container, .inn-card_post-thumbnail__item__thumbnail__container, .inn-card_xs__item__thumbnail__container {
+    display: block;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    border-radius: 0rem 0rem 0 0;
+}
+/*下载按钮*/
+.inn-singular__post__toolbar__item__link {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 33%;
+    padding: 1rem;
+    color: #fff;
+    margin: 0 0rem 0rem;
+    border-radius: 0rem;
+}
+.inn-singular__post__toolbar__item__link:first-child {
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+}
+.inn-singular__post__toolbar__item__link:last-child {
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+.inn-singular__post {
+    border-radius: 0rem;
+}
+.poi-panel__body, .inn-widget>*:last-child {
+    border-radius: 0rem;
+}
+
+.inn-card_xs__item__container {
+    border-radius: 0rem;
+}
+
+/*首页2019*/
+.inn-slideshow.is-2019 {
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    border-radius: 0rem;
+}
+.inn-slideshow_2019 {
+    border-radius: 0rem;
+}
+.inn-homepage__recomm__item__title {
+    padding: 0rem 0.5rem;
+}
